@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     width: 70%;
 	margin: 0 auto;
-    background-color: rgb(39, 41, 41);
+    background-color: rgb(29, 30, 30);
     font-size: 17px;
 }
 
@@ -27,12 +27,17 @@ li {
     color: aliceblue;
 }
 
-i, b {
+b {
+    color: #cc4d4d;
+}
+
+p.i {
     color: #02e2ac;
 }
 
-.nav {
+ol.nav {
     color: aliceblue;
+    text-align: left;
 }
 
 a {
@@ -41,11 +46,16 @@ a {
 
 table {
     color: azure;
-    border: 3px solid rgb(245, 246, 248);
+    width: 100%;
     border-collapse: collapse;
-    text-align: center;
     margin: 10px 5px 10px 0;
+    border: 3px solid rgb(245, 246, 248);
+    text-align: center;
     padding: 10px;
+}
+
+div.b {
+    text-align: center;
 }
 
 th {
@@ -62,18 +72,47 @@ td {
 }
 
 p {
-    color: aliceblue;
+    color: rgb(208, 213, 216);
     text-align: left;
     margin: 10px 5px;
 }
 
-img {
+figure {
+    margin: 0;
+}
+
+div.image-box {
     float: right;
-    clear: right;
-    margin: 25px 5px 10px 20px;
+    color: #fff;
+    margin: 0 auto 10px 20px;
     border-radius: 5px;
-    background-color: #c9c3c3;
-    padding: 0.3em;
+    background-color: rgb(47, 48, 48);
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+    max-width: fit-content; 
+    overflow: hidden; 
+}
+
+div.img-box img {
+    border-radius: 5px;
+    text-align: center;
+    max-width: 100%;
+}
+
+div.i {
+    color: #fff;
+    text-align: center;
+}
+
+div.img-box figcaption {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-style: italic;
 }
 
 blockquote {
@@ -83,4 +122,3 @@ blockquote {
     border-left: 10px solid #02e2ac;
     border-radius: 5px;
 }
-
