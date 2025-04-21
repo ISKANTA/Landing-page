@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 70%;
 	margin: 0 auto;
     background-color: rgb(29, 30, 30);
@@ -35,13 +35,10 @@ p.i {
     color: #02e2ac;
 }
 
-ol.nav {
-    color: aliceblue;
-    text-align: left;
-}
-
 a {
     color: rgb(77, 157, 228);
+    text-decoration: none;
+    
 }
 
 table {
@@ -79,12 +76,14 @@ p {
 
 figure {
     margin: 0;
+    padding: 0;
 }
 
 div.image-box {
     float: right;
+    clear: right;
     color: #fff;
-    margin: 0 auto 10px 20px;
+    margin: auto;
     border-radius: 5px;
     background-color: rgb(47, 48, 48);
     box-shadow: 0 0 10px rgb(12, 12, 12);
@@ -94,8 +93,6 @@ div.image-box {
 
 div.img-box img {
     border-radius: 5px;
-    text-align: center;
-    max-width: 100%;
 }
 
 div.i {
