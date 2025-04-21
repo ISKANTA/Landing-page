@@ -1,0 +1,121 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+	margin: 0 auto;
+    background-color: rgb(29, 30, 30);
+    font-size: 17px;
+}
+
+h1 {
+    color: #02e2ac;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+
+h2, h3 {
+    color: #02e2ac;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+li {
+    color: aliceblue;
+}
+
+b {
+    color: #cc4d4d;
+}
+
+p.i {
+    color: #02e2ac;
+}
+
+a {
+    color: rgb(77, 157, 228);
+    text-decoration: none;
+    
+}
+
+table {
+    color: azure;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 5px 10px 0;
+    border: 3px solid rgb(245, 246, 248);
+    text-align: center;
+    padding: 10px;
+}
+
+div.b {
+    text-align: center;
+}
+
+th {
+    color: rgb(230, 207, 135);
+    text-align: center;
+    border: 3px solid rgb(245, 246, 248);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    border: 3px solid rgb(245, 246, 248);
+    padding: 10px;
+}
+
+p {
+    color: rgb(208, 213, 216);
+    text-align: left;
+    margin: 10px 5px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+div.image-box {
+    float: right;
+    clear: right;
+    color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(47, 48, 48);
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+    max-width: fit-content; 
+    overflow: hidden; 
+}
+
+div.img-box img {
+    border-radius: 5px;
+}
+
+div.i {
+    color: #fff;
+    text-align: center;
+}
+
+div.img-box figcaption {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+blockquote {
+    color: aliceblue;
+    padding: 15px 10px 15px 20px;
+    margin: 40px 50px;
+    border-left: 10px solid #02e2ac;
+    border-radius: 5px;
+}
