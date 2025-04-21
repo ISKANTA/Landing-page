@@ -77,13 +77,18 @@ p {
 figure {
     margin: 0;
     padding: 0;
+    width: min-content;
+}
+
+figcaption {
+    text-align: center;
 }
 
 div.image-box {
     float: right;
     clear: right;
     color: #fff;
-    margin: auto;
+    margin: 0;
     border-radius: 5px;
     background-color: rgb(47, 48, 48);
     box-shadow: 0 0 10px rgb(12, 12, 12);
@@ -91,9 +96,6 @@ div.image-box {
     overflow: hidden; 
 }
 
-div.img-box img {
-    border-radius: 5px;
-}
 
 div.i {
     color: #fff;
